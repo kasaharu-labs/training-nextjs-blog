@@ -15,6 +15,7 @@ export default function Post({ postData }) {
       {postData.title}
       <br />
       {postData.id}
+      <br />
       {postData.date}
     </Layout>
   );
